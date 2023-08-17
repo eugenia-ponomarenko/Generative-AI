@@ -1,7 +1,7 @@
 # Use case 6
 
 # Lambda
-Lambda code - [lambda.py](https://github.com/eugenia-ponomarenko/Generative-AI//main/lambda.py)
+Lambda code - [lambda.py](https://github.com/eugenia-ponomarenko/Generative-AI/blob/main/lambda.py)
 
 <img width="1640" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/831f4db7-c57b-4b39-a4ce-f277e9ccd99a">
 <img width="1614" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/61af3fbf-27a0-4724-a5c5-0b7378751b0e">
