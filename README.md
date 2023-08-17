@@ -17,13 +17,14 @@ Lambda code - [lambda.py](https://github.com/eugenia-ponomarenko/Generative-AI//
 # S3
 <img width="1437" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/c7a4f545-1573-4748-971f-a7a0405fc2f2">
 
-
-## Access
-<img width="1656" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/1cd2b034-3a54-49e9-8a77-8c04a5f3ec8f">
+## Encryption 
+<img width="1406" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/be597138-0154-43b1-abc4-5afda4c21b49">
 
 ## Lifecycle policies
 <img width="1655" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/83bc5dc5-a68b-4025-8b3d-f5ec2b8cb7ee">
 
+## Access
+<img width="1656" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/1cd2b034-3a54-49e9-8a77-8c04a5f3ec8f">
 
 
 # EventBridge
