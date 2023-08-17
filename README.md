@@ -28,6 +28,10 @@ Lambda code - [lambda.py](https://github.com/eugenia-ponomarenko/Generative-AI/b
 # S3
 <img width="1437" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/c7a4f545-1573-4748-971f-a7a0405fc2f2">
 
+-----
+
+The created S3 object with metrics - [ebs-metrics-2023-08-17.json](https://github.com/eugenia-ponomarenko/Generative-AI/blob/main/ebs-metrics-2023-08-17.json)
+
 ## Encryption 
 <img width="1406" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/be597138-0154-43b1-abc4-5afda4c21b49">
 
