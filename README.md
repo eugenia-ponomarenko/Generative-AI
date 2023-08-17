@@ -1,5 +1,16 @@
 # Use case 6
 
+# EBS
+
+## Volumes
+<img width="1495" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/728d9768-1177-459e-bd01-6394b418c074">
+<img width="1224" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/3e8d73bd-7b3b-4d31-8142-8bef945b33b3">
+
+
+## Snapshots
+<img width="1479" alt="image" src="https://github.com/eugenia-ponomarenko/Generative-AI/assets/71873090/a1aa4355-1d00-4e75-ae98-adf0c9c8cf01">
+
+
 # Lambda
 Lambda code - [lambda.py](https://github.com/eugenia-ponomarenko/Generative-AI/blob/main/lambda.py)
 
