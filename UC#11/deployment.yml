@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: nginx-deployment
+  namespace: nginx-app-ns
+  labels:
+    app: nginx
+spec:
+  selector:
+    matchLabels:
+      app: nginx
+  template: 
+    metadata:
+      labels: 
+        app: nginx
+    spec:
+      containers:
+      - name: nginx-container
+        image: nginx:alpine3.18-slim
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            memory: 300Mi
+            cpu: 500m
+          requests:
+            memory: 150Mi
+            cpu: 250m
+        livenessProbe:
+          httpGet:
+            path: /index.html
+            port: 80
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /index.html
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        volumeMounts:
+          - name: nginx-config-volume
+            mountPath: /etc/nginx
+      volumes:
+        - name: nginx-config-volume
+          configMap:
+            name: nginx-config

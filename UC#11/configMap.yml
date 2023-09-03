@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+  namespace: nginx-app-ns
+data:
+  nginx.conf: |
+    server {
+        listen       80;
+        server_name  my-nginx-server;
+
+        location / {
+            root   /usr/share/nginx/html;
+            index  index.html;
+        }
+    }
